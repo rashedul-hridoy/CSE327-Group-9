@@ -3,7 +3,6 @@ from .import views
 
 # Django Olny looks at Main Url.py
 
-
 urlpatterns = [
-   path('',views.print,name='print'),  
+   path('',views.home,name='home'),  
 ] 
