@@ -15,7 +15,7 @@ class TestDoctors(unittest.Testcase):
 
         self.assertEqual(doct_1.fullname, 'Faruq Hasan')
         self.assertEqual(doct_2.fullname, 'Hasib Jaman')
-
+# testing
         doct_1 = 'John'
         doct_2 = 'Joni'
         
@@ -25,7 +25,7 @@ class TestDoctors(unittest.Testcase):
 
         doct_1 = Doctors('Faruq', 'Hasan', 500000)
         doct_2 = Doctors('Hasib', 'Jaman', 600000)
-
+# testing
         doct_1.apply_raise()
         doct_2.apply_raise()
 
