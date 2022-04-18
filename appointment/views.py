@@ -2,5 +2,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 # Create your views here.
-def print(request):
-    return HttpResponse("Printing From Appoitnment")
+def home(request):
+    return render(request,'doctor/doctor_authentication.html')
