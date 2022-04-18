@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Login</h1>
+</head>
+<body>
+    <form action="doctor_login" method="POST">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="First_name">First Name</label>
+            <input type="text" class="form-control" id="First_name" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+        <div class="form-group">
+            <label for="Last_name">Last Name</label>
+            <input type="text" class="form-control" id="Last_name" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="Password1">Password</label>
+            <input type="password" class="form-control" id="Password1" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+    </form>
+    
+</body>
+</html>
